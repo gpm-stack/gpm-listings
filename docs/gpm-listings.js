@@ -67,10 +67,10 @@
 
   var REQS = '<div class="gh-box gh-reqs"><h2>What you need to rent</h2><p>Household income of at least 3x the monthly rent for one occupant, or 4x for two or more occupants, plus a credit and background check. The $50 application fee is only charged when we&rsquo;re ready to run your background check. Housing Choice Vouchers are welcome. Pets are considered case by case, and our homes are smoke-free. <a href="/faq/">Read the renter FAQ</a>.</p></div>';
 
-  function card(h) {
+  function card(h, i) {
     var tags = '<span class="gh-tag">' + esc(availability(h)) + '</span>' + (h.youtube ? '<span class="gh-tag video">Video tour</span>' : '');
     return '<article class="gh-card">' +
-      '<a class="ph" href="' + homeUrl(h) + '"><img src="' + esc(h.photos[0] || '') + '" alt="' + esc(h.address) + '" loading="lazy"><span class="tags">' + tags + '</span></a>' +
+      '<a class="ph" href="' + homeUrl(h) + '"><img src="' + esc(h.photos[0] || '') + '" alt="' + esc(h.address) + '" loading="' + (i < 6 ? 'eager' : 'lazy') + '"><span class="tags">' + tags + '</span></a>' +
       '<div class="info"><div class="gh-rent">' + esc(h.rent) + '<small> /month</small></div>' +
       '<div class="specs">' + esc(specs(h)) + '</div><div class="addr">' + esc(h.address) + '</div>' +
       '<div class="acts"><a class="gh-btn gh-btn-navy" href="' + homeUrl(h) + '">View home</a><a class="gh-btn gh-btn-ghost" href="' + esc(h.apply_url) + '" target="_blank" rel="noopener">Apply</a></div></div>' +
