@@ -2,7 +2,7 @@
    Data comes from listings.json (kept current from AppFolio by the scheduled sync). */
 (function () {
   var script = document.currentScript;
-  var BASE = script ? script.src.replace(/[^/]+$/, '') : '';
+  var BASE = script && /^https?:/.test(script.src) ? script.src.replace(/[?#].*$/, '').replace(/[^/]+$/, '') : 'https://gpm-stack.github.io/gpm-listings/';
   var PHONE = '(601) 300-2050', TEL = 'tel:+16013002050';
   var APPFOLIO = 'https://goodpm.appfolio.com/listings';
 
