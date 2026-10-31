@@ -27,17 +27,10 @@ function doGet(e) {
   var key = props.getProperty('RENTCAST_API_KEY');
   if (!key) return json({ ok: false, reason: 'setup' });
 
-  var lock = LockService.getScriptLock();
-  lock.waitLock(10000);
-  try {
-    var month = 'count_' + Utilities.formatDate(new Date(), 'America/Chicago', 'yyyy-MM');
-    var used = Number(props.getProperty(month) || 0);
-    var cap = Number(props.getProperty('MONTHLY_CAP') || DEFAULT_CAP);
-    if (used >= cap) return json({ ok: false, reason: 'limit' });
-    props.setProperty(month, String(used + 1));
-  } finally {
-    lock.releaseLock();
-  }
+  // RentCast bills only successful lookups, so only those count toward the cap.
+  var month = 'count_' + Utilities.formatDate(new Date(), 'America/Chicago', 'yyyy-MM');
+  var cap = Number(props.getProperty('MONTHLY_CAP') || DEFAULT_CAP);
+  if (Number(props.getProperty(month) || 0) >= cap) return json({ ok: false, reason: 'limit' });
 
   var query = { address: address, propertyType: type, compCount: 10 };
   if (beds) query.bedrooms = beds;
@@ -46,7 +39,14 @@ function doGet(e) {
     return k + '=' + encodeURIComponent(query[k]);
   }).join('&');
   var res = UrlFetchApp.fetch(url, { headers: { 'X-Api-Key': key, Accept: 'application/json' }, muteHttpExceptions: true });
-  if (res.getResponseCode() !== 200) return json({ ok: false, reason: 'lookup' });
+  if (res.getResponseCode() !== 200) return json({ ok: false, reason: 'lookup', status: res.getResponseCode() });
+  var lock = LockService.getScriptLock();
+  lock.waitLock(10000);
+  try {
+    props.setProperty(month, String(Number(props.getProperty(month) || 0) + 1));
+  } finally {
+    lock.releaseLock();
+  }
 
   var d = JSON.parse(res.getContentText());
   if (!d.rent) return json({ ok: false, reason: 'lookup' });
