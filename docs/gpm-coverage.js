@@ -1,12 +1,15 @@
 /* GPM coverage checker: a visitor types an address and learns whether it is inside the area GPM manages.
    Areas come from coverage.geojson (exported from the "GPM Coverage Area Map" in Google My Maps by tools/kml2geo.py):
-   green = we manage, red = we don't. Red wins where areas overlap; anywhere outside both counts as not covered. */
+   green = we manage, red = we don't. Red wins where areas overlap; anywhere outside both counts as not covered.
+   Anything not green needs GPM's approval, so it offers the Property Review Request form (Carrot form 17) placed
+   on the same page; without that form on the page, the button goes to the contact page. */
 (function () {
   var script = document.currentScript;
   var BASE = script && /^https?:/.test(script.src) ? script.src.replace(/[?#].*$/, '').replace(/[^/]+$/, '') : 'https://gpm-stack.github.io/gpm-listings/';
   var PHONE = '(601) 300-2050', TEL = 'tel:+16013002050';
   var LEAFLET = 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/';
   var CENTER = [32.30, -90.18];
+  var REVIEW_FORM_ID = 17;
 
   var CSS = [
     '.gc { --navy: #1e2a44; --gold: #c49a45; --gold-deep: #85621f; --ink: #1f2430; --muted: #5c6475; --line: #e1e4ea; --mist: #f4f5f8; --ok: #1d7a46; --ok-bg: #e9f6ee; --no: #b3261e; --no-bg: #fcecea; color: var(--ink); font-family: Figtree, -apple-system, "Segoe UI", Roboto, sans-serif; text-align: left; }',
@@ -77,15 +80,30 @@
   }
 
   function message(status, label) {
-    var call = '<a class="gc-btn gc-btn-ghost" href="' + TEL + '">Call ' + PHONE + '</a>';
     if (status === 'green') return { cls: 'ok', html:
-      '<h2>Congratulations, we can manage it!</h2><p class="gc-addr">' + esc(label) + '</p>' +
-      '<p>This address is inside the area GPM manages. Tell us about the home and we&rsquo;ll send a free rental evaluation.</p>' +
-      '<div class="gc-acts"><a class="gc-btn gc-btn-gold" href="/free-rental-evaluation/">Get a free rental evaluation</a>' + call + '</div>' };
+      '<h2>Great News! We Serve Your Area.</h2><p class="gc-addr">' + esc(label) + '</p>' +
+      '<p>Your property is within GPM&rsquo;s management coverage area. Let&rsquo;s see if it&rsquo;s a good fit for our services.</p>' +
+      '<div class="gc-acts"><a class="gc-btn gc-btn-gold" href="/free-rental-evaluation/">Get Started</a></div>' };
     return { cls: 'no', html:
-      '<h2>Sorry, we can&rsquo;t manage it.</h2><p class="gc-addr">' + esc(label) + '</p>' +
-      '<p>This address is outside the area we manage. If you think this is an exception or a portfolio opportunity, please still reach out and give us a call.</p>' +
-      '<div class="gc-acts">' + call + '<a class="gc-btn gc-btn-ghost" href="/contact-us/">Send us a message</a></div>' };
+      '<h2>Your Property Is Outside Our Primary Service Area</h2><p class="gc-addr">' + esc(label) + '</p>' +
+      '<p>This property falls outside our standard coverage area. However, some properties near our service boundaries may still qualify for management.</p>' +
+      '<p>We review these opportunities individually to ensure we can provide the level of service our clients expect.</p>' +
+      '<div class="gc-acts"><a class="gc-btn gc-btn-navy gc-review" href="/contact-us/">Request a Property Review</a></div>' };
+  }
+
+  // The review form stays hidden until a visitor asks for a review, unless GF is showing its errors or thank-you.
+  function reviewForm() {
+    var wrap = document.getElementById('gform_wrapper_' + REVIEW_FORM_ID);
+    if (wrap && !wrap.querySelector('.gform_validation_errors, .gfield_error, .validation_error')) wrap.style.display = 'none';
+    return wrap;
+  }
+  function openReview(wrap, address) {
+    wrap.style.display = '';
+    var field = document.getElementById('input_' + REVIEW_FORM_ID + '_1');
+    if (field && address) field.value = address;
+    wrap.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    var first = document.getElementById('input_' + REVIEW_FORM_ID + '_5_3');
+    if (first) setTimeout(function () { first.focus({ preventScroll: true }); }, 400);
   }
 
   function mount() {
@@ -104,7 +122,11 @@
 
     var form = root.querySelector('form'), input = root.querySelector('input'), btn = root.querySelector('button');
     var result = root.querySelector('.gc-result'), mapEl = root.querySelector('.gc-map');
-    var areas = null, map = null, pin = null;
+    var areas = null, map = null, pin = null, review = reviewForm(), checked = '';
+    result.addEventListener('click', function (e) {
+      var a = e.target.closest && e.target.closest('.gc-review');
+      if (a && review) { e.preventDefault(); openReview(review, checked); }
+    });
 
     var ready = Promise.all([
       fetch(BASE + 'coverage.geojson', { cache: 'no-cache' }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }),
@@ -131,7 +153,9 @@
           result.className = 'gc-result err';
           result.innerHTML = '<p>We couldn&rsquo;t find that address. Check the spelling and include the city, or call us at <a href="' + TEL + '">' + PHONE + '</a>.</p>';
         } else {
-          var m = message(statusAt(areas, hit.lng, hit.lat), hit.label);
+          var status = statusAt(areas, hit.lng, hit.lat), m = message(status, hit.label);
+          checked = hit.label;
+          if (status === 'green' && review && !review.querySelector('.gform_validation_errors, .gfield_error')) review.style.display = 'none';
           result.className = 'gc-result ' + m.cls; result.innerHTML = m.html;
           if (pin) pin.remove();
           pin = L.marker([hit.lat, hit.lng]).addTo(map); map.setView([hit.lat, hit.lng], 13);
