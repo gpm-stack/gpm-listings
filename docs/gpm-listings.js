@@ -5,6 +5,9 @@
   var BASE = script && /^https?:/.test(script.src) ? script.src.replace(/[?#].*$/, '').replace(/[^/]+$/, '') : 'https://gpm-stack.github.io/gpm-listings/';
   var PHONE = '(601) 300-2050', TEL = 'tel:+16013002050';
   var APPFOLIO = 'https://goodpm.appfolio.com/listings';
+  // AppFolio adds a 100px logo as every home's last photo; show the website's sharp logo in its place.
+  var APPFOLIO_LOGO = 'aa1d309c-8405-422d-9ac7-722cd43f0128';
+  var SHARP_LOGO = 'https://image-cdn.carrot.com/uploads/sites/79289/2026/10/gpm-logo-transparent.png';
 
   var CSS = [
     'body:has(.gh) .page-header, body:has(.gh) .entry-share { display: none !important; }',
@@ -40,6 +43,8 @@
     '.gh-facts { display: flex; flex-wrap: wrap; gap: 8px 22px; align-items: baseline; font-size: 16px; }',
     '.gh-gallery { display: flex; gap: 10px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 8px; margin-bottom: 6px; }',
     '.gh-gallery img { flex: 0 0 auto; width: min(720px, 86%); aspect-ratio: 4 / 3; object-fit: cover; border-radius: 8px; scroll-snap-align: start; max-width: 100%; }',
+    '.gh-gallery .gh-logo-slide { flex: 0 0 auto; width: min(720px, 86%); aspect-ratio: 4 / 3; border-radius: 8px; scroll-snap-align: start; max-width: 100%; background: #fbf7ee; display: flex; align-items: center; justify-content: center; }',
+    '.gh-gallery .gh-logo-slide img { flex: none; width: 62%; height: auto; aspect-ratio: auto; object-fit: contain; border-radius: 0; }',
     '.gh-hint { font-size: 13.5px; color: var(--muted); margin-bottom: 26px !important; }',
     '.gh-body { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); gap: 36px; align-items: start; }',
     '.gh-main { display: grid; gap: 26px; min-width: 0; } .gh-main h2 { font-size: 24px; margin-bottom: 10px; }',
@@ -88,7 +93,10 @@
   function detail(h, data) {
     var rows = [['Rent', h.rent + ' /month'], ['Security deposit', h.deposit], ['Application fee', h.application_fee], ['Availability', (function (a) { return a.charAt(0).toUpperCase() + a.slice(1); })(availability(h).replace('Available ', ''))]]
       .filter(function (r) { return r[1]; }).map(function (r) { return '<dt>' + esc(r[0]) + '</dt><dd>' + esc(r[1]) + '</dd>'; }).join('');
-    var gallery = h.photos.map(function (p, i) { return '<img src="' + esc(p) + '" alt="' + esc(h.address) + ' photo ' + (i + 1) + '" loading="' + (i < 2 ? 'eager' : 'lazy') + '">'; }).join('');
+    var gallery = h.photos.map(function (p, i) {
+      if (p.indexOf(APPFOLIO_LOGO) !== -1) return '<div class="gh-logo-slide"><img src="' + SHARP_LOGO + '" alt="GPM Sales and Management, LLC" loading="lazy"></div>';
+      return '<img src="' + esc(p) + '" alt="' + esc(h.address) + ' photo ' + (i + 1) + '" loading="' + (i < 2 ? 'eager' : 'lazy') + '">';
+    }).join('');
     var video = h.youtube ? '<section><h2>Video tour</h2><div class="gh-video"><iframe src="https://www.youtube-nocookie.com/embed/' + esc(h.youtube) + '" title="Video tour of ' + esc(h.address) + '" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe></div></section>' : '';
     var desc = h.description.map(function (p) { return '<p>' + esc(p).replace(/\n/g, '<br>') + '</p>'; }).join('');
     return '<a class="gh-back" href="' + location.pathname + '">&larr; All homes for rent</a>' +
