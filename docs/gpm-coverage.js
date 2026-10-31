@@ -14,8 +14,9 @@
     '.gc h1, .gc h2 { font-family: "Source Serif 4", Georgia, serif; color: var(--navy); margin: 0; text-wrap: balance; }',
     '.gc h1 { font-size: clamp(30px, 4vw, 42px); line-height: 1.15; }',
     '.gc-intro { display: grid; gap: 10px; max-width: 680px; margin-bottom: 22px; } .gc-intro p { margin: 0; color: var(--muted); font-size: 17px; line-height: 1.6; }',
-    '.gc-form { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 16px; }',
-    '.gc-form input { flex: 1 1 280px; min-width: 0; font: inherit; font-size: 16px; padding: 13px 14px; border: 1px solid #c9ced8; border-radius: 6px; background: #fff; color: var(--ink); }',
+    // Carrot's theme styles every <form> (dark panel, column layout), so these rules use the id to win.
+    '#gpm-coverage .gc-form { display: flex; flex-direction: row; gap: 10px; flex-wrap: wrap; margin: 0 0 16px; padding: 0; width: auto; max-width: none; height: auto; min-height: 0; background: none; border: 0; box-shadow: none; }',
+    '#gpm-coverage .gc-form input { flex: 1 1 280px; height: auto; min-height: 0; margin: 0; min-width: 0; font: inherit; font-size: 16px; padding: 13px 14px; border: 1px solid #c9ced8; border-radius: 6px; background: #fff; color: var(--ink); }',
     '.gc-form input:focus { outline: 3px solid var(--gold); outline-offset: 1px; }',
     '.gc-btn { display: inline-flex; align-items: center; justify-content: center; font: inherit; font-weight: 600; font-size: 16px; padding: 13px 22px; border-radius: 6px; border: 1px solid transparent; cursor: pointer; text-decoration: none !important; }',
     '.gc-btn-navy { background: var(--navy); color: #fff !important; } .gc-btn-gold { background: var(--gold); color: #1a1a1a !important; } .gc-btn-ghost { background: #fff; color: var(--navy) !important; border-color: var(--line); }',
@@ -31,7 +32,8 @@
     '.gc-legend { display: flex; gap: 18px; flex-wrap: wrap; font-size: 14.5px; color: var(--muted); margin-top: 10px; }',
     '.gc-legend span::before { content: ""; display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: 7px; vertical-align: -1px; }',
     '.gc-legend .g::before { background: #0f9d58; } .gc-legend .r::before { background: #ff5252; }',
-    '@media (max-width: 560px) { .gc-map { height: 340px; } .gc-form .gc-btn { flex: 1 1 100%; } }'
+    '#gpm-coverage .gc-form .gc-btn { flex: 0 0 auto; width: auto; margin: 0; }',
+    '@media (max-width: 560px) { .gc-map { height: 340px; } #gpm-coverage .gc-form .gc-btn { flex: 1 1 100%; } }'
   ].join('\n');
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
@@ -79,7 +81,7 @@
     if (status === 'green') return { cls: 'ok', html:
       '<h2>Congratulations, we can manage it!</h2><p class="gc-addr">' + esc(label) + '</p>' +
       '<p>This address is inside the area GPM manages. Tell us about the home and we&rsquo;ll send a free rental evaluation.</p>' +
-      '<div class="gc-acts"><a class="gc-btn gc-btn-gold" href="/#contact">Get a free rental evaluation</a>' + call + '</div>' };
+      '<div class="gc-acts"><a class="gc-btn gc-btn-gold" href="/free-rental-evaluation/">Get a free rental evaluation</a>' + call + '</div>' };
     return { cls: 'no', html:
       '<h2>Sorry, we can&rsquo;t manage it.</h2><p class="gc-addr">' + esc(label) + '</p>' +
       '<p>This address is outside the area we manage. If you think this is an exception or a portfolio opportunity, please still reach out and give us a call.</p>' +
