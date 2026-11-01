@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-30T16:55:39+00:00",
+ "updated_at": "2026-11-01T00:06:45+00:00",
  "homes": [
   {
    "uid": "a3fc4dba-26d2-4c0f-b611-b783855f8f0e",
@@ -493,7 +493,7 @@
    "address": "5433 Queen Eleanor Lane, Jackson, MS 39209",
    "street": "5433 Queen Eleanor Lane",
    "rent": "$895",
-   "bed_bath": "",
+   "bed_bath": "3 bd / 1 ba",
    "sqft": "",
    "available": "NOW",
    "photos": [
