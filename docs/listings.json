@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-03T06:43:52+00:00",
+ "updated_at": "2026-11-03T23:19:59+00:00",
  "homes": [
   {
    "uid": "a3fc4dba-26d2-4c0f-b611-b783855f8f0e",
@@ -185,6 +185,50 @@
    "application_fee": "$50",
    "apply_url": "https://goodpm.appfolio.com/listings/rental_applications/new?listable_uid=a4854df5-b86b-46ab-a106-1cc053b0a14a&source=Website",
    "appfolio_url": "https://goodpm.appfolio.com/listings/detail/a4854df5-b86b-46ab-a106-1cc053b0a14a"
+  },
+  {
+   "uid": "123be493-649e-4645-a199-f7c344d32641",
+   "slug": "1229-maria-drive",
+   "title": "Move-In Ready 3BR/1BA Home | 1229 Maria Drive, Jackson, MS 39204",
+   "address": "1229 Maria Drive, Jackson, MS 39204",
+   "street": "1229 Maria Drive",
+   "rent": "$1,195",
+   "bed_bath": "3 bd / 1 ba",
+   "sqft": "1,980",
+   "available": "NOW",
+   "photos": [
+    "https://images.cdn.appfolio.com/goodpm/images/b8106a5d-1369-41d5-8818-8951ef18649f/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/a01d31b1-11de-4240-be33-9c4b95873522/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/ac698ec0-d527-4412-8ca7-94bad1920d67/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/1c88410d-e982-4c35-874f-a8818136bce0/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/d483a325-cfc3-4c8c-b535-d7a3dfe3003c/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/0a80f0da-3ddc-4bf2-8f5e-b6b847dddd95/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/72ba1113-d60e-4b68-9393-0cbca820e842/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/53824271-1619-463e-89bd-bd3c12cb2ab3/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/c2648526-e473-474a-ab92-f66253f753dd/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/9aea08e2-fd05-492f-980d-b9ad09fc6dd7/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/1c600bb8-e8fd-4b03-9a1c-86c683921e28/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/ebdeaf47-215f-482e-b03b-1aff4a095423/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/805dfbc9-b024-4524-8bfb-8af25da06f5d/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/4f35db33-3d4e-4632-87e6-573e50ec7749/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/c201c8e3-7793-476e-be01-42e393b73b8c/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/39855ae0-b128-4633-ba33-5f4568fd0050/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/c6b5656a-0edf-4763-ac6a-08668db28bcd/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/aa1d309c-8405-422d-9ac7-722cd43f0128/large.jpg"
+   ],
+   "youtube": "2sOtq1x5A-c",
+   "description": [
+    "Welcome to 1229 Maria Drive, Jackson, MS 39204, a single-family home offering comfortable, move-in-ready living in Jackson's 39204 area. Recently rehabbed and ready for its next residents, this home is a great option for renters looking for affordability and convenience.",
+    "Home Features:\n- Single-family home\n- Recently rehabbed\n- Move-in ready\n- Convenient 39204 Jackson location\n- 3 bedrooms\n- 1 bathroom\n- 1,980 square feet",
+    "Utilities: Tenant responsibility, as specified in the lease.",
+    "Appliance Policy: Appliances may or may not be provided. Any appliances left in the home are offered as-is and are not warranted, repaired, or replaced by the landlord. If an appliance is removed or stops working, the landlord is not obligated to repair or replace it.",
+    "Rental Requirements:\n- Household income must meet the property's income requirements.\n- Credit and background screening are required.\n- Renters insurance is highly recommended.\n- This is a smoke-free home.\n- Pets are generally not permitted, but may be considered on a case-by-case basis, depending on the type, size, and breed of the animal.\n- Housing Choice Vouchers are welcome. All applicants are subject to the same screening and approval process, in compliance with applicable Fair Housing laws.",
+    "Rental Terms:\n- Monthly Rent: $1,195\n- Application Fee: $50, charged only if approved\n- Security Deposit: $1,195\n- Available: Now"
+   ],
+   "deposit": "$1,195",
+   "application_fee": "$50",
+   "apply_url": "https://goodpm.appfolio.com/listings/rental_applications/new?listable_uid=123be493-649e-4645-a199-f7c344d32641&source=Website",
+   "appfolio_url": "https://goodpm.appfolio.com/listings/detail/123be493-649e-4645-a199-f7c344d32641"
   },
   {
    "uid": "2ee8aa06-ac1c-40f9-b1e4-ec0beb66648c",
@@ -382,7 +426,7 @@
     "Appliance Policy: Appliances may or may not be provided. Any appliances left in the home are offered as a convenience only. Tenants are responsible for providing and/or replacing appliances if they become non-functional during the lease term.",
     "Rental Requirements\nNo application fee unless you are approved.\nMonthly household income must be at least 3\u00d7 the monthly rent for one occupant or 4\u00d7 the monthly rent for two working adults.\nCredit and background check required.\n$1,050 security deposit.\nRenters insurance is highly reccomended.\nSmoke-free home.\nPets are generally not permitted but may be considered on a case-by-case basis depending on the type, size, and breed of the animal."
    ],
-   "deposit": "$1,050",
+   "deposit": "$995",
    "application_fee": "$50",
    "apply_url": "https://goodpm.appfolio.com/listings/rental_applications/new?listable_uid=43d2ff1b-1e32-4ce0-aea8-896f8f908ac8&source=Website",
    "appfolio_url": "https://goodpm.appfolio.com/listings/detail/43d2ff1b-1e32-4ce0-aea8-896f8f908ac8"
@@ -413,11 +457,11 @@
     "Affordable 3-Bedroom Single-Family Home | $995/Month",
     "Welcome to 2442 Glenn Street, a comfortable 3-bedroom, 1-bathroom single-family home offering approximately 1,188 square feet of living space. With a practical layout and plenty of room to make yourself at home, this property is a great option for individuals or households looking for comfortable living at an affordable price.",
     "Conveniently located in the 39204 area of Jackson, the home offers access to local shopping, dining, grocery stores, schools, and major roadways throughout the Jackson area.",
-    "Home Features\n3 bedrooms\n1 full bathroom\nApproximately 1,188 square feet\nSingle-family home\nFunctional floor plan\nComfortable living space\nSpace for everyday living and dining\nRental Details\nMonthly Rent: $995\nSecurity Deposit: $1,000\nRental Requirements\nHousehold income must meet the property's income requirements.\nCredit and background screening required.\nRenters insurance is highly recommended.\nSmoke-free home.\nPets are generally not permitted but may be considered on a case-by-case basis.\nHousing Choice Vouchers and other lawful rental assistance are welcome. All applicants are considered in accordance with applicable Fair Housing laws and the property's standard screening requirements.\nUtilities & Appliances\nUtility responsibilities and included appliances, if any, will be confirmed as part of the rental process. Any appliances provided may be subject to the terms of the lease.",
+    "Home Features\n3 bedrooms\n1 full bathroom\nApproximately 1,188 square feet\nSingle-family home\nFunctional floor plan\nComfortable living space\nSpace for everyday living and dining\nRental Details\nMonthly Rent: $995\nSecurity Deposit: $995\nRental Requirements\nHousehold income must meet the property's income requirements.\nCredit and background screening required.\nRenters insurance is highly recommended.\nSmoke-free home.\nPets are generally not permitted but may be considered on a case-by-case basis.\nHousing Choice Vouchers and other lawful rental assistance are welcome. All applicants are considered in accordance with applicable Fair Housing laws and the property's standard screening requirements.\nUtilities & Appliances\nUtility responsibilities and included appliances, if any, will be confirmed as part of the rental process. Any appliances provided may be subject to the terms of the lease.",
     "Make This House Your Next Home!\nIf you're looking for a 3-bedroom home with a practical layout and an affordable monthly payment, 2442 Glenn Street may be the right fit.",
-    "Rent: $995 per month | Security Deposit: $1,000"
+    "Rent: $995 per month | Security Deposit: $995"
    ],
-   "deposit": "$1,000",
+   "deposit": "$995",
    "application_fee": "$50",
    "apply_url": "https://goodpm.appfolio.com/listings/rental_applications/new?listable_uid=7961d2f2-ad47-45e3-8ff2-c93e954d3ced&source=Website",
    "appfolio_url": "https://goodpm.appfolio.com/listings/detail/7961d2f2-ad47-45e3-8ff2-c93e954d3ced"
@@ -456,6 +500,41 @@
    "appfolio_url": "https://goodpm.appfolio.com/listings/detail/ff231041-8dc5-4e12-bc1d-2d8da07907d1"
   },
   {
+   "uid": "55a479ba-d6be-4dda-882e-a9c2f79432d7",
+   "slug": "5433-queen-eleanor-lane",
+   "title": "Home For Rent",
+   "address": "5433 Queen Eleanor Lane, Jackson, MS 39209",
+   "street": "5433 Queen Eleanor Lane",
+   "rent": "$995",
+   "bed_bath": "4 bd / 1 ba",
+   "sqft": "1,484",
+   "available": "NOW",
+   "photos": [
+    "https://images.cdn.appfolio.com/goodpm/images/01f870f2-2f4e-4180-af56-818f680844e5/large.png",
+    "https://images.cdn.appfolio.com/goodpm/images/bae5b286-04a2-4720-bc37-dcd76e79a819/large.jpeg",
+    "https://images.cdn.appfolio.com/goodpm/images/3675b9d6-3d7c-4015-9c97-ab81a9a42048/large.jpeg",
+    "https://images.cdn.appfolio.com/goodpm/images/057f2726-8963-4c56-8e79-6527c4a0b78a/large.jpeg",
+    "https://images.cdn.appfolio.com/goodpm/images/72e52315-7083-40bc-acd9-fbe8256ba253/large.jpeg",
+    "https://images.cdn.appfolio.com/goodpm/images/7994d346-1471-4bf8-8704-6949c786a9e1/large.jpeg",
+    "https://images.cdn.appfolio.com/goodpm/images/8d8c6ef9-42b6-4b59-89bb-987d4fff82ba/large.jpeg",
+    "https://images.cdn.appfolio.com/goodpm/images/b063346a-3473-4246-a85a-c432550418d1/large.jpeg",
+    "https://images.cdn.appfolio.com/goodpm/images/3caac7a3-7c39-4324-a613-31f0324b27c2/large.jpeg",
+    "https://images.cdn.appfolio.com/goodpm/images/aa1d309c-8405-422d-9ac7-722cd43f0128/large.jpg"
+   ],
+   "youtube": null,
+   "description": [
+    "Spacious home available now in Jackson, MS!",
+    "Tenant is responsible for electricity, gas, water, and lawn care, as applicable to the property.",
+    "Appliance Policy: Appliances may or may not be provided. Any appliances left in the home are offered as-is.",
+    "Rental Requirements\n- $50 application fee. No application fee is required until we are ready to process your background check.\n- Monthly household income must be at least 3x the monthly rent for one occupant or 4x the monthly rent for two or more occupants.\n- Credit and background check required.\n- $700 security deposit.\n- Renters insurance is highly recommended.\n- Smoke-free home.\n- Pets are generally not permitted but may be considered on a case-by-case basis, subject to approval.",
+    "If you're looking for a home that combines comfort, convenience, and a great location, this home is one you won't want to miss. Apply today!"
+   ],
+   "deposit": "$700",
+   "application_fee": "$50",
+   "apply_url": "https://goodpm.appfolio.com/listings/rental_applications/new?listable_uid=55a479ba-d6be-4dda-882e-a9c2f79432d7&source=Website",
+   "appfolio_url": "https://goodpm.appfolio.com/listings/detail/55a479ba-d6be-4dda-882e-a9c2f79432d7"
+  },
+  {
    "uid": "19d947b1-3f21-471c-a49b-9ec334053397",
    "slug": "1019-combs-street",
    "title": "2Bed 1Bath Home",
@@ -492,41 +571,6 @@
    "application_fee": "$50",
    "apply_url": "https://goodpm.appfolio.com/listings/rental_applications/new?listable_uid=19d947b1-3f21-471c-a49b-9ec334053397&source=Website",
    "appfolio_url": "https://goodpm.appfolio.com/listings/detail/19d947b1-3f21-471c-a49b-9ec334053397"
-  },
-  {
-   "uid": "55a479ba-d6be-4dda-882e-a9c2f79432d7",
-   "slug": "5433-queen-eleanor-lane",
-   "title": "Home For Rent",
-   "address": "5433 Queen Eleanor Lane, Jackson, MS 39209",
-   "street": "5433 Queen Eleanor Lane",
-   "rent": "$895",
-   "bed_bath": "3 bd / 1 ba",
-   "sqft": "",
-   "available": "NOW",
-   "photos": [
-    "https://images.cdn.appfolio.com/goodpm/images/01f870f2-2f4e-4180-af56-818f680844e5/large.png",
-    "https://images.cdn.appfolio.com/goodpm/images/bae5b286-04a2-4720-bc37-dcd76e79a819/large.jpeg",
-    "https://images.cdn.appfolio.com/goodpm/images/3675b9d6-3d7c-4015-9c97-ab81a9a42048/large.jpeg",
-    "https://images.cdn.appfolio.com/goodpm/images/057f2726-8963-4c56-8e79-6527c4a0b78a/large.jpeg",
-    "https://images.cdn.appfolio.com/goodpm/images/72e52315-7083-40bc-acd9-fbe8256ba253/large.jpeg",
-    "https://images.cdn.appfolio.com/goodpm/images/7994d346-1471-4bf8-8704-6949c786a9e1/large.jpeg",
-    "https://images.cdn.appfolio.com/goodpm/images/8d8c6ef9-42b6-4b59-89bb-987d4fff82ba/large.jpeg",
-    "https://images.cdn.appfolio.com/goodpm/images/b063346a-3473-4246-a85a-c432550418d1/large.jpeg",
-    "https://images.cdn.appfolio.com/goodpm/images/3caac7a3-7c39-4324-a613-31f0324b27c2/large.jpeg",
-    "https://images.cdn.appfolio.com/goodpm/images/aa1d309c-8405-422d-9ac7-722cd43f0128/large.jpg"
-   ],
-   "youtube": null,
-   "description": [
-    "Spacious home available now in Jackson, MS!",
-    "Tenant is responsible for electricity, gas, water, and lawn care, as applicable to the property.",
-    "Appliance Policy: Appliances may or may not be provided. Any appliances left in the home are offered as-is.",
-    "Rental Requirements\n- $50 application fee. No application fee is required until we are ready to process your background check.\n- Monthly household income must be at least 3x the monthly rent for one occupant or 4x the monthly rent for two or more occupants.\n- Credit and background check required.\n- $700 security deposit.\n- Renters insurance is highly recommended.\n- Smoke-free home.\n- Pets are generally not permitted but may be considered on a case-by-case basis, subject to approval.",
-    "If you're looking for a home that combines comfort, convenience, and a great location, this home is one you won't want to miss. Apply today!"
-   ],
-   "deposit": "$700",
-   "application_fee": "$50",
-   "apply_url": "https://goodpm.appfolio.com/listings/rental_applications/new?listable_uid=55a479ba-d6be-4dda-882e-a9c2f79432d7&source=Website",
-   "appfolio_url": "https://goodpm.appfolio.com/listings/detail/55a479ba-d6be-4dda-882e-a9c2f79432d7"
   }
  ]
 }
