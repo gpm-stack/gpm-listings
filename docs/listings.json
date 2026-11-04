@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-03T23:19:59+00:00",
+ "updated_at": "2026-11-04T06:14:58+00:00",
  "homes": [
   {
    "uid": "a3fc4dba-26d2-4c0f-b611-b783855f8f0e",
@@ -92,58 +92,6 @@
    "appfolio_url": "https://goodpm.appfolio.com/listings/detail/a578fe5e-a374-4796-8a6f-a9a14164a63a"
   },
   {
-   "uid": "5d084bbc-b1a1-4c8d-bec4-af91a6fd08ef",
-   "slug": "3320-ridgeland-drive",
-   "title": "Move-In Ready 3BR/1.5BA Home in South Jackson | Spacious Living & Convenient Location",
-   "address": "3320 Ridgeland Drive, Jackson, MS 39212",
-   "street": "3320 Ridgeland Drive",
-   "rent": "$1,195",
-   "bed_bath": "3 bd / 1.5 ba",
-   "sqft": "",
-   "available": "NOW",
-   "photos": [
-    "https://images.cdn.appfolio.com/goodpm/images/7b0125b2-0318-4502-80a4-6578a3e414f8/large.png",
-    "https://images.cdn.appfolio.com/goodpm/images/e339da58-5fda-4ed4-9297-9a8449dc58bd/large.jpg",
-    "https://images.cdn.appfolio.com/goodpm/images/46ef6b06-abfa-462f-91a3-f8813084726b/large.jpg",
-    "https://images.cdn.appfolio.com/goodpm/images/236a1233-3802-4364-8727-26f579ce50e8/large.jpg",
-    "https://images.cdn.appfolio.com/goodpm/images/36c57b8f-470a-4f96-9474-9909cfa6c5fe/large.jpg",
-    "https://images.cdn.appfolio.com/goodpm/images/a9f5a1d1-39ad-404c-a274-e684e6debc08/large.jpg",
-    "https://images.cdn.appfolio.com/goodpm/images/13f2a8f6-7abc-4fa7-bca8-957f10feec44/large.jpg",
-    "https://images.cdn.appfolio.com/goodpm/images/46d153c5-3ea4-4725-82b0-5b873baf5b17/large.jpg",
-    "https://images.cdn.appfolio.com/goodpm/images/91a7f10b-56bf-4aed-92f7-6922e985274a/large.jpg",
-    "https://images.cdn.appfolio.com/goodpm/images/733e8798-31ff-40f1-988a-2fa2a87c20d2/large.jpg",
-    "https://images.cdn.appfolio.com/goodpm/images/40b75443-f2d0-4584-a502-52848769b01d/large.jpg",
-    "https://images.cdn.appfolio.com/goodpm/images/539b419c-c7b6-4d42-b4e3-ee351fe5e6d8/large.jpg",
-    "https://images.cdn.appfolio.com/goodpm/images/8c964354-e320-4339-aa03-eaea377262b1/large.jpg",
-    "https://images.cdn.appfolio.com/goodpm/images/c3b43e01-bffd-444b-b68f-72090c532b3e/large.jpg",
-    "https://images.cdn.appfolio.com/goodpm/images/3a9f88b1-5fcc-47e8-aadb-5f34a515949b/large.jpg",
-    "https://images.cdn.appfolio.com/goodpm/images/189a7265-8242-4a36-994d-03d2ac799791/large.jpg",
-    "https://images.cdn.appfolio.com/goodpm/images/ee818020-02f5-4bc9-b2cd-c3822c5e16bd/large.jpg",
-    "https://images.cdn.appfolio.com/goodpm/images/997a50ca-b336-4b6e-9b0c-e84beaf1646d/large.jpg",
-    "https://images.cdn.appfolio.com/goodpm/images/8bef17b3-9317-4c90-842f-c3a02a0b9e41/large.jpg",
-    "https://images.cdn.appfolio.com/goodpm/images/31b90a9a-fcd0-4962-b85b-88865047b4c9/large.jpg",
-    "https://images.cdn.appfolio.com/goodpm/images/076b9758-6ed0-4384-b99b-3a04b4df3b88/large.jpg",
-    "https://images.cdn.appfolio.com/goodpm/images/82de3d2c-741c-4d2e-b138-64da6fa14b41/large.jpg",
-    "https://images.cdn.appfolio.com/goodpm/images/aa1d309c-8405-422d-9ac7-722cd43f0128/large.jpg"
-   ],
-   "youtube": "uIkcwHchYks",
-   "description": [
-    "Welcome Home",
-    "Welcome to 3320 Ridgeland Dr, Jackson, MS 39212, a 3-bedroom, 1.5-bath single-family home offering comfortable living in a convenient South Jackson location.",
-    "This home features a practical floor plan with three bedrooms, comfortable living space, and off-street parking. Located in the 39212 area, the property provides convenient access to shopping, restaurants, schools, and major roadways throughout the Jackson metro area.",
-    "Home Features\n3 bedrooms\n1.5 bathrooms\nComfortable living areas\nPractical single-story layout\nOff-street parking\nSingle-family home\nConvenient South Jackson location\nUtilities",
-    "Tenant is responsible for electricity, gas, water, and lawn care.",
-    "Appliance Policy: Appliances may or may not be provided. Any appliances left in the home are offered as a convenience only. Tenants are responsible for providing and/or replacing appliances if they become non-functional during the lease term.",
-    "Rental Requirements\nNo application fee unless you are approved.\nMonthly household income must be at least 3\u00d7 the monthly rent for one occupant or 4\u00d7 the monthly rent for two working adults.\nCredit and background check required.\n$1,195 security deposit.\nRenters insurance is highly recommended.\nSmoke-free home.\nPets are generally not permitted but may be considered on a case-by-case basis depending on the type, size, and breed of the animal.\nHousing Assistance",
-    "Housing Choice Vouchers and other lawful rental assistance are welcome. All applicants are considered under the same screening criteria and in accordance with applicable fair housing laws.",
-    "Rental Terms\nRent: $1,195/month\nApplication Fee: $50, charged only if approved\nSecurity Deposit: $1,195\nAvailable: Now"
-   ],
-   "deposit": "$1,195",
-   "application_fee": "$50",
-   "apply_url": "https://goodpm.appfolio.com/listings/rental_applications/new?listable_uid=5d084bbc-b1a1-4c8d-bec4-af91a6fd08ef&source=Website",
-   "appfolio_url": "https://goodpm.appfolio.com/listings/detail/5d084bbc-b1a1-4c8d-bec4-af91a6fd08ef"
-  },
-  {
    "uid": "a4854df5-b86b-46ab-a106-1cc053b0a14a",
    "slug": "6322-abraham-lincoln-drive",
    "title": "Recently Renovated 3-Bedroom Home | Comfortable Living in the 39213 Area",
@@ -189,12 +137,12 @@
   {
    "uid": "123be493-649e-4645-a199-f7c344d32641",
    "slug": "1229-maria-drive",
-   "title": "Move-In Ready 3BR/1BA Home | 1229 Maria Drive, Jackson, MS 39204",
+   "title": "Move-In Ready 4BR/1BA Home | 1229 Maria Drive, Jackson, MS 39204",
    "address": "1229 Maria Drive, Jackson, MS 39204",
    "street": "1229 Maria Drive",
    "rent": "$1,195",
-   "bed_bath": "3 bd / 1 ba",
-   "sqft": "1,980",
+   "bed_bath": "4 bd / 1 ba",
+   "sqft": "1,318",
    "available": "NOW",
    "photos": [
     "https://images.cdn.appfolio.com/goodpm/images/b8106a5d-1369-41d5-8818-8951ef18649f/large.jpg",
@@ -219,7 +167,7 @@
    "youtube": "2sOtq1x5A-c",
    "description": [
     "Welcome to 1229 Maria Drive, Jackson, MS 39204, a single-family home offering comfortable, move-in-ready living in Jackson's 39204 area. Recently rehabbed and ready for its next residents, this home is a great option for renters looking for affordability and convenience.",
-    "Home Features:\n- Single-family home\n- Recently rehabbed\n- Move-in ready\n- Convenient 39204 Jackson location\n- 3 bedrooms\n- 1 bathroom\n- 1,980 square feet",
+    "Home Features:\n- Single-family home\n- Recently rehabbed\n- Move-in ready\n- Convenient 39204 Jackson location\n- 4 bedrooms\n- 1 bathroom\n- 1,318 square feet",
     "Utilities: Tenant responsibility, as specified in the lease.",
     "Appliance Policy: Appliances may or may not be provided. Any appliances left in the home are offered as-is and are not warranted, repaired, or replaced by the landlord. If an appliance is removed or stops working, the landlord is not obligated to repair or replace it.",
     "Rental Requirements:\n- Household income must meet the property's income requirements.\n- Credit and background screening are required.\n- Renters insurance is highly recommended.\n- This is a smoke-free home.\n- Pets are generally not permitted, but may be considered on a case-by-case basis, depending on the type, size, and breed of the animal.\n- Housing Choice Vouchers are welcome. All applicants are subject to the same screening and approval process, in compliance with applicable Fair Housing laws.",
@@ -393,43 +341,6 @@
    "application_fee": "$50",
    "apply_url": "https://goodpm.appfolio.com/listings/rental_applications/new?listable_uid=407f31ac-5626-46f7-8e38-3df69053e50f&source=Website",
    "appfolio_url": "https://goodpm.appfolio.com/listings/detail/407f31ac-5626-46f7-8e38-3df69053e50f"
-  },
-  {
-   "uid": "43d2ff1b-1e32-4ce0-aea8-896f8f908ac8",
-   "slug": "3719-main-street",
-   "title": "Move-In Ready 3BR/1BA Home in Jackson | Recently Renovated & Convenient Parking",
-   "address": "3719 Main Street, Jackson, MS 39213",
-   "street": "3719 Main Street",
-   "rent": "$995",
-   "bed_bath": "3 bd / 1 ba",
-   "sqft": "",
-   "available": "NOW",
-   "photos": [
-    "https://images.cdn.appfolio.com/goodpm/images/6851c3d0-bd77-47d8-a553-c37a02717b27/large.jpg",
-    "https://images.cdn.appfolio.com/goodpm/images/eff32afc-cc8c-4288-99a8-a2cef86655a5/large.jpg",
-    "https://images.cdn.appfolio.com/goodpm/images/233448b9-5e86-4b4d-92dd-39b53cf45bc5/large.jpg",
-    "https://images.cdn.appfolio.com/goodpm/images/0fe46348-68bb-49f6-b7ee-39a68e35abf3/large.jpg",
-    "https://images.cdn.appfolio.com/goodpm/images/52f7bcb1-d4d8-4c38-ab83-a914c4ed3270/large.jpg",
-    "https://images.cdn.appfolio.com/goodpm/images/32444b07-e6dd-4516-84e8-98a15a282931/large.jpg",
-    "https://images.cdn.appfolio.com/goodpm/images/43bf4341-73dd-4d94-89d5-0d332298676b/large.jpg",
-    "https://images.cdn.appfolio.com/goodpm/images/4c619f33-ace3-4a69-91c0-9e8ffbf64238/large.jpg",
-    "https://images.cdn.appfolio.com/goodpm/images/eb2c3471-e013-4ac1-a219-e6577b0f0aea/large.jpg",
-    "https://images.cdn.appfolio.com/goodpm/images/aa1d309c-8405-422d-9ac7-722cd43f0128/large.jpg"
-   ],
-   "youtube": "xbObIaNvzd0",
-   "description": [
-    "Welcome Home",
-    "Welcome to 3719 Main St, Jackson, MS 39213, a recently renovated 3-bedroom, 1-bath home offering comfortable and affordable living in Jackson.",
-    "This home features updated flooring, ceiling fans, comfortable living space, and convenient off-street parking. With three bedrooms and a practical single-story layout, this home is ready for its next resident.",
-    "Home Features\n3 bedrooms\n1 full bathroom\nApproximately 846 sq. ft.\nRecently renovated\nUpdated flooring\nCeiling fans\nComfortable living areas\nOff-street driveway parking\nSingle-family home\nUtilities",
-    "Tenant is responsible for electricity, gas, water, and lawn care.",
-    "Appliance Policy: Appliances may or may not be provided. Any appliances left in the home are offered as a convenience only. Tenants are responsible for providing and/or replacing appliances if they become non-functional during the lease term.",
-    "Rental Requirements\nNo application fee unless you are approved.\nMonthly household income must be at least 3\u00d7 the monthly rent for one occupant or 4\u00d7 the monthly rent for two working adults.\nCredit and background check required.\n$1,050 security deposit.\nRenters insurance is highly reccomended.\nSmoke-free home.\nPets are generally not permitted but may be considered on a case-by-case basis depending on the type, size, and breed of the animal."
-   ],
-   "deposit": "$995",
-   "application_fee": "$50",
-   "apply_url": "https://goodpm.appfolio.com/listings/rental_applications/new?listable_uid=43d2ff1b-1e32-4ce0-aea8-896f8f908ac8&source=Website",
-   "appfolio_url": "https://goodpm.appfolio.com/listings/detail/43d2ff1b-1e32-4ce0-aea8-896f8f908ac8"
   },
   {
    "uid": "7961d2f2-ad47-45e3-8ff2-c93e954d3ced",
