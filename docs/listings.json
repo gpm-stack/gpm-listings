@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-05T23:37:16+00:00",
+ "updated_at": "2026-11-06T06:38:56+00:00",
  "homes": [
   {
    "uid": "2ef78103-5787-4cd3-80a6-ad1e747c64a6",
@@ -12,7 +12,7 @@
    "sqft": "1,277",
    "available": "NOW",
    "photos": [
-    "https://images.cdn.appfolio.com/goodpm/images/4fd87231-696f-422d-beb4-09e331780d16/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/00d89f5d-76d7-41fd-be5d-220c7ceef365/large.jpg",
     "https://images.cdn.appfolio.com/goodpm/images/7edd1e66-0dc9-4100-b500-fc7cd8218afb/large.jpg",
     "https://images.cdn.appfolio.com/goodpm/images/987b968f-9e9a-4255-b667-c690131d9593/large.jpg",
     "https://images.cdn.appfolio.com/goodpm/images/1e28b97a-be8d-4a06-8713-69456627da30/large.jpg",
@@ -22,10 +22,11 @@
     "https://images.cdn.appfolio.com/goodpm/images/25ce8861-7fd9-441b-b419-74ec95050ced/large.jpg",
     "https://images.cdn.appfolio.com/goodpm/images/4638bb27-1b37-413d-bf05-16e0e0403b91/large.jpg",
     "https://images.cdn.appfolio.com/goodpm/images/e580f0a3-baef-4de4-bc31-d80386275485/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/bfba5c33-8e74-4f24-a55d-d69a4b1ba6f6/large.jpg",
     "https://images.cdn.appfolio.com/goodpm/images/03fd890b-020b-48b8-b481-e6a4db9d9403/large.jpg",
     "https://images.cdn.appfolio.com/goodpm/images/aa1d309c-8405-422d-9ac7-722cd43f0128/large.jpg"
    ],
-   "youtube": null,
+   "youtube": "fmnviv2xKW4",
    "description": [
     "This inviting home offers comfortable living with spacious rooms, a welcoming atmosphere, and a convenient location in Pearl, MS. Whether you're looking for a place to call home or room to accommodate your family's needs, this property offers the comfort and functionality you're looking for.",
     "Enjoy convenient access to nearby shopping, restaurants, schools, parks, and major highways, making everyday errands and commuting throughout the Pearl area a breeze.",
@@ -88,6 +89,41 @@
    "application_fee": "$50",
    "apply_url": "https://goodpm.appfolio.com/listings/rental_applications/new?listable_uid=a3fc4dba-26d2-4c0f-b611-b783855f8f0e&source=Website",
    "appfolio_url": "https://goodpm.appfolio.com/listings/detail/a3fc4dba-26d2-4c0f-b611-b783855f8f0e"
+  },
+  {
+   "uid": "cb5b6617-6027-4118-9c84-3890d04dd9b9",
+   "slug": "3245-albermarle-road",
+   "title": "",
+   "address": "3245 Albermarle Road, Jackson, MS 39213",
+   "street": "3245 Albermarle Road",
+   "rent": "$1,295",
+   "bed_bath": "4 bd / 2 ba",
+   "sqft": "1,416",
+   "available": "NOW",
+   "photos": [
+    "https://images.cdn.appfolio.com/goodpm/images/b7426013-d856-4440-8506-45bb166a0551/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/0939d423-2185-4294-b8aa-fc7b9c72bca4/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/e5b97ec7-29ac-4139-a93e-c10acbb6c7fa/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/37250060-5cde-4fb5-84c1-bd5e92ec866e/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/2dbd32d3-d9b4-4914-8fd9-2b2902c32751/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/b506100e-f939-45f3-bbb2-b617550eac06/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/b4173eeb-7641-4129-a17a-e4b20f7af3e1/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/b5ae78db-a2b9-4ddf-b174-b1736ae7363b/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/9c7c28fd-95c1-440c-9a42-3d8a83b34af6/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/cb47320b-f15b-42de-86b4-487568f904c8/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/ffd7de02-13b3-4d0a-ae36-c555d7020ed3/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/e2f530e7-6061-4d5f-a595-3be4eb66387e/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/41d0251d-9ba0-48f2-a555-a55b8ce17135/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/aa1d309c-8405-422d-9ac7-722cd43f0128/large.jpg"
+   ],
+   "youtube": "BWjzrqbYuU0",
+   "description": [
+    "Spacious 4 bedroom, 2 bathroom brick home for rent in Jackson. This home offers 1,416 square feet with beautiful hardwood floors throughout the living room, hallway, and all four bedrooms. The oversized kitchen and dining area features tile flooring, plenty of cabinet storage, and room for the whole family. Ceiling fans throughout, an attached garage, and a large yard with mature shade trees. Convenient to shopping, dining, and major highways. Rent is $1,295 per month with a $1,000 security deposit. Contact GPM Sales and Management, LLC today for more information."
+   ],
+   "deposit": "$1,000",
+   "application_fee": "$50",
+   "apply_url": "https://goodpm.appfolio.com/listings/rental_applications/new?listable_uid=cb5b6617-6027-4118-9c84-3890d04dd9b9&source=Website",
+   "appfolio_url": "https://goodpm.appfolio.com/listings/detail/cb5b6617-6027-4118-9c84-3890d04dd9b9"
   },
   {
    "uid": "a578fe5e-a374-4796-8a6f-a9a14164a63a",
@@ -470,7 +506,7 @@
     "https://images.cdn.appfolio.com/goodpm/images/3caac7a3-7c39-4324-a613-31f0324b27c2/large.jpeg",
     "https://images.cdn.appfolio.com/goodpm/images/aa1d309c-8405-422d-9ac7-722cd43f0128/large.jpg"
    ],
-   "youtube": null,
+   "youtube": "BwreBotcoao",
    "description": [
     "Spacious home available now in Jackson, MS!",
     "Tenant is responsible for electricity, gas, water, and lawn care, as applicable to the property.",
