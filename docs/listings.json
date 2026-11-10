@@ -1,12 +1,12 @@
 {
- "updated_at": "2026-11-09T06:21:21+00:00",
+ "updated_at": "2026-11-10T03:33:31+00:00",
  "homes": [
   {
    "uid": "2ef78103-5787-4cd3-80a6-ad1e747c64a6",
-   "slug": "2364-harahan-rd-pearl",
+   "slug": "2364-harahan-road",
    "title": "3Bed 2bath, Pearl Location",
-   "address": "2364 Harahan Rd Pearl, MS 39208, Jackson, MS 39208",
-   "street": "2364 Harahan Rd Pearl",
+   "address": "2364 Harahan Road, Pearl, MS 39208",
+   "street": "2364 Harahan Road",
    "rent": "$1,595",
    "bed_bath": "3 bd / 2 ba",
    "sqft": "1,277",
