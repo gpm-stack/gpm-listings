@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-11T14:16:48+00:00",
+ "updated_at": "2026-11-11T21:55:22+00:00",
  "homes": [
   {
    "uid": "2ef78103-5787-4cd3-80a6-ad1e747c64a6",
@@ -375,81 +375,6 @@
    "application_fee": "$50",
    "apply_url": "https://goodpm.appfolio.com/listings/rental_applications/new?listable_uid=18c68b09-490d-4206-8b1a-5a2d32ea8d08&source=Website",
    "appfolio_url": "https://goodpm.appfolio.com/listings/detail/18c68b09-490d-4206-8b1a-5a2d32ea8d08"
-  },
-  {
-   "uid": "407f31ac-5626-46f7-8e38-3df69053e50f",
-   "slug": "782-launcelot-road",
-   "title": "Welcome Home to 782 Launcelot Road, Jackson, MS 39206!",
-   "address": "782 Launcelot Road, Jackson, MS 39206",
-   "street": "782 Launcelot Road",
-   "rent": "$1,095",
-   "bed_bath": "3 bd / 1 ba",
-   "sqft": "",
-   "available": "NOW",
-   "photos": [
-    "https://images.cdn.appfolio.com/goodpm/images/58015ccf-43ce-4b06-aeab-2d7d81c0f985/large.png",
-    "https://images.cdn.appfolio.com/goodpm/images/26168191-32b6-438d-9e49-b3f685658835/large.png",
-    "https://images.cdn.appfolio.com/goodpm/images/ee7dc657-59ef-4880-a7df-10f25ff90340/large.png",
-    "https://images.cdn.appfolio.com/goodpm/images/06cdaf78-e3b1-4a0e-92ba-51e7eb9d86fc/large.png",
-    "https://images.cdn.appfolio.com/goodpm/images/7ea73a56-b882-47af-a0a8-a922aa2479bb/large.png",
-    "https://images.cdn.appfolio.com/goodpm/images/60c3388f-7f36-40fe-8f16-069664cef2ce/large.png",
-    "https://images.cdn.appfolio.com/goodpm/images/50d1caff-3b6f-47d9-acb9-400e018c205b/large.png",
-    "https://images.cdn.appfolio.com/goodpm/images/b0667e2b-805c-4ccf-ad87-559a4fbe77d6/large.png",
-    "https://images.cdn.appfolio.com/goodpm/images/752786bd-0af3-41db-b6e5-9405a0f517f9/large.png",
-    "https://images.cdn.appfolio.com/goodpm/images/aa1d309c-8405-422d-9ac7-722cd43f0128/large.jpg"
-   ],
-   "youtube": "BAhoCD-Ovps",
-   "description": [
-    "Comfortable 3-Bedroom Home in Jackson, MS | $1,095/Month",
-    "Welcome to 782 Launcelot Road, a rental home offering a practical layout and comfortable living in the 39206 area of Jackson, Mississippi.",
-    "The home features 3 bedrooms and 1 full bathroom, providing space for everyday living, relaxing, and making yourself at home. Whether you're looking for additional bedroom space, a dedicated home office, or room to accommodate your household, this property offers a functional layout with flexibility for your needs.",
-    "Conveniently located in the 39206 area of Jackson, the property provides access to nearby grocery stores, everyday shopping, dining, neighborhood services, and major roadways throughout the Jackson area.",
-    "Home Features",
-    "3 bedrooms and 1 full bathroom\nFunctional layout with multiple bedrooms\nComfortable living space\nPractical floor plan for everyday living\nConvenient Jackson location\nSingle-family rental property\nRental Details",
-    "Monthly Rent: $1,095\nSecurity Deposit: $1,095\nApplication Fee: $50, if applicable under the application process\nUtilities: Tenant responsibility, as specified in the lease\nRental Requirements",
-    "Household income must meet the property's income requirements.\nCredit and background screening required.\nRenters insurance is highly recommended.\nSmoke-free property.\nPets are generally not permitted but may be considered on a case-by-case basis.\nHousing Choice Vouchers and other lawful rental assistance are welcome. Applicants are considered in accordance with applicable Fair Housing laws and the property's standard screening requirements.\nAn Affordable Rental Opportunity",
-    "If you're looking for a 3-bedroom rental home in Jackson, 782 Launcelot Road offers a practical option with a monthly rent of $1,095. With three bedrooms and a functional layout, this property provides an opportunity to settle into a home with convenient access to everyday necessities throughout the area.",
-    "Rent: $1,095 per month | Deposit: $1,095"
-   ],
-   "deposit": "$1,095",
-   "application_fee": "$50",
-   "apply_url": "https://goodpm.appfolio.com/listings/rental_applications/new?listable_uid=407f31ac-5626-46f7-8e38-3df69053e50f&source=Website",
-   "appfolio_url": "https://goodpm.appfolio.com/listings/detail/407f31ac-5626-46f7-8e38-3df69053e50f"
-  },
-  {
-   "uid": "7961d2f2-ad47-45e3-8ff2-c93e954d3ced",
-   "slug": "2442-glenn-street",
-   "title": "Welcome Home to 2442 Glenn Street, Jackson, MS 39204!",
-   "address": "2442 Glenn Street, Jackson, MS 39204",
-   "street": "2442 Glenn Street",
-   "rent": "$995",
-   "bed_bath": "3 bd / 1 ba",
-   "sqft": "",
-   "available": "NOW",
-   "photos": [
-    "https://images.cdn.appfolio.com/goodpm/images/fdc3ff58-dc43-40f7-9c13-31bbb9b8c8fa/large.jpg",
-    "https://images.cdn.appfolio.com/goodpm/images/5de9d5a1-f9a9-49b5-8ee6-7bf2b95241af/large.jpg",
-    "https://images.cdn.appfolio.com/goodpm/images/a63498c7-ebf9-4446-b0ab-63121e25e2ab/large.jpg",
-    "https://images.cdn.appfolio.com/goodpm/images/21b83fca-43b4-411b-8c75-d73ae3eebf3b/large.jpg",
-    "https://images.cdn.appfolio.com/goodpm/images/faabfa7d-ee3e-4bfc-8f70-84d0e3210393/large.jpg",
-    "https://images.cdn.appfolio.com/goodpm/images/e57a9ae2-3a6c-47fd-b8d3-a21e3b742d43/large.jpg",
-    "https://images.cdn.appfolio.com/goodpm/images/f3c02de6-0af3-4848-845a-ec8344b04dfa/large.jpg",
-    "https://images.cdn.appfolio.com/goodpm/images/2a8f1dc5-0db4-439a-a6c0-7b33a60d17dc/large.jpg",
-    "https://images.cdn.appfolio.com/goodpm/images/aa1d309c-8405-422d-9ac7-722cd43f0128/large.jpg"
-   ],
-   "youtube": "uXV2CvyZ4ck",
-   "description": [
-    "Affordable 3-Bedroom Single-Family Home | $995/Month",
-    "Welcome to 2442 Glenn Street, a comfortable 3-bedroom, 1-bathroom single-family home offering approximately 1,188 square feet of living space. With a practical layout and plenty of room to make yourself at home, this property is a great option for individuals or households looking for comfortable living at an affordable price.",
-    "Conveniently located in the 39204 area of Jackson, the home offers access to local shopping, dining, grocery stores, schools, and major roadways throughout the Jackson area.",
-    "Home Features\n3 bedrooms\n1 full bathroom\nApproximately 1,188 square feet\nSingle-family home\nFunctional floor plan\nComfortable living space\nSpace for everyday living and dining\nRental Details\nMonthly Rent: $995\nSecurity Deposit: $995\nRental Requirements\nHousehold income must meet the property's income requirements.\nCredit and background screening required.\nRenters insurance is highly recommended.\nSmoke-free home.\nPets are generally not permitted but may be considered on a case-by-case basis.\nHousing Choice Vouchers and other lawful rental assistance are welcome. All applicants are considered in accordance with applicable Fair Housing laws and the property's standard screening requirements.\nUtilities & Appliances\nUtility responsibilities and included appliances, if any, will be confirmed as part of the rental process. Any appliances provided may be subject to the terms of the lease.",
-    "Make This House Your Next Home!\nIf you're looking for a 3-bedroom home with a practical layout and an affordable monthly payment, 2442 Glenn Street may be the right fit.",
-    "Rent: $995 per month | Security Deposit: $995"
-   ],
-   "deposit": "$995",
-   "application_fee": "$50",
-   "apply_url": "https://goodpm.appfolio.com/listings/rental_applications/new?listable_uid=7961d2f2-ad47-45e3-8ff2-c93e954d3ced&source=Website",
-   "appfolio_url": "https://goodpm.appfolio.com/listings/detail/7961d2f2-ad47-45e3-8ff2-c93e954d3ced"
   },
   {
    "uid": "ff231041-8dc5-4e12-bc1d-2d8da07907d1",
