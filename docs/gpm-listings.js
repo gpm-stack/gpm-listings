@@ -134,7 +134,7 @@
         if (!want) { root.innerHTML = grid(data); return; }
         var h = data.homes.filter(function (x) { return x.slug === want; })[0];
         root.innerHTML = h ? detail(h, data) : gone();
-        if (h) document.title = h.street + ', Jackson MS | ' + h.rent + '/mo Home for Rent | GPM';
+        if (h) document.title = h.street + ', ' + ((h.address || '').split(',').slice(-2, -1)[0] || 'Jackson').trim() + ' MS | ' + h.rent + '/mo Home for Rent | GPM';
         window.scrollTo(0, 0);
       })
       .catch(function () { root.innerHTML = fallback(); });
