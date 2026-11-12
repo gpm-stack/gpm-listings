@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-12T07:06:37+00:00",
+ "updated_at": "2026-11-12T17:34:29+00:00",
  "homes": [
   {
    "uid": "2ef78103-5787-4cd3-80a6-ad1e747c64a6",
@@ -408,41 +408,6 @@
    "application_fee": "$50",
    "apply_url": "https://goodpm.appfolio.com/listings/rental_applications/new?listable_uid=ff231041-8dc5-4e12-bc1d-2d8da07907d1&source=Website",
    "appfolio_url": "https://goodpm.appfolio.com/listings/detail/ff231041-8dc5-4e12-bc1d-2d8da07907d1"
-  },
-  {
-   "uid": "55a479ba-d6be-4dda-882e-a9c2f79432d7",
-   "slug": "5433-queen-eleanor-lane",
-   "title": "Home For Rent",
-   "address": "5433 Queen Eleanor Lane, Jackson, MS 39209",
-   "street": "5433 Queen Eleanor Lane",
-   "rent": "$995",
-   "bed_bath": "4 bd / 1 ba",
-   "sqft": "1,484",
-   "available": "NOW",
-   "photos": [
-    "https://images.cdn.appfolio.com/goodpm/images/01f870f2-2f4e-4180-af56-818f680844e5/large.png",
-    "https://images.cdn.appfolio.com/goodpm/images/bae5b286-04a2-4720-bc37-dcd76e79a819/large.jpeg",
-    "https://images.cdn.appfolio.com/goodpm/images/3675b9d6-3d7c-4015-9c97-ab81a9a42048/large.jpeg",
-    "https://images.cdn.appfolio.com/goodpm/images/057f2726-8963-4c56-8e79-6527c4a0b78a/large.jpeg",
-    "https://images.cdn.appfolio.com/goodpm/images/72e52315-7083-40bc-acd9-fbe8256ba253/large.jpeg",
-    "https://images.cdn.appfolio.com/goodpm/images/7994d346-1471-4bf8-8704-6949c786a9e1/large.jpeg",
-    "https://images.cdn.appfolio.com/goodpm/images/8d8c6ef9-42b6-4b59-89bb-987d4fff82ba/large.jpeg",
-    "https://images.cdn.appfolio.com/goodpm/images/b063346a-3473-4246-a85a-c432550418d1/large.jpeg",
-    "https://images.cdn.appfolio.com/goodpm/images/3caac7a3-7c39-4324-a613-31f0324b27c2/large.jpeg",
-    "https://images.cdn.appfolio.com/goodpm/images/aa1d309c-8405-422d-9ac7-722cd43f0128/large.jpg"
-   ],
-   "youtube": "BwreBotcoao",
-   "description": [
-    "Spacious home available now in Jackson, MS!",
-    "Tenant is responsible for electricity, gas, water, and lawn care, as applicable to the property.",
-    "Appliance Policy: Appliances may or may not be provided. Any appliances left in the home are offered as-is.",
-    "Rental Requirements\n- $50 application fee. No application fee is required until we are ready to process your background check.\n- Monthly household income must be at least 3x the monthly rent for one occupant or 4x the monthly rent for two or more occupants.\n- Credit and background check required.\n- $700 security deposit.\n- Renters insurance is highly recommended.\n- Smoke-free home.\n- Pets are generally not permitted but may be considered on a case-by-case basis, subject to approval.",
-    "If you're looking for a home that combines comfort, convenience, and a great location, this home is one you won't want to miss. Apply today!"
-   ],
-   "deposit": "$700",
-   "application_fee": "$50",
-   "apply_url": "https://goodpm.appfolio.com/listings/rental_applications/new?listable_uid=55a479ba-d6be-4dda-882e-a9c2f79432d7&source=Website",
-   "appfolio_url": "https://goodpm.appfolio.com/listings/detail/55a479ba-d6be-4dda-882e-a9c2f79432d7"
   },
   {
    "uid": "19d947b1-3f21-471c-a49b-9ec334053397",
