@@ -66,6 +66,7 @@
     '.gh-clear { min-height: 44px; padding: 0 6px; background: none; border: 0; font: inherit; font-size: 15px; font-weight: 600; color: var(--gold-deep); text-decoration: underline; cursor: pointer; }',
     '.gh-ask { border: 1px solid var(--line); border-radius: 10px; padding: 22px; background: var(--mist); scroll-margin-top: 16px; }',
     '.gh-ask > p { color: var(--muted); line-height: 1.6; margin-bottom: 14px; }',
+    '.gh .gh-ask [id^="gform_"] h2 { font-family: Figtree, -apple-system, "Segoe UI", Roboto, sans-serif !important; font-size: 16px; line-height: 1.45; letter-spacing: 0; color: #7a1d27 !important; }',
     'body:has(.gh) #gform_wrapper_' + ASK_FORM_ID + ', body:has(.gh) #gform_confirmation_wrapper_' + ASK_FORM_ID + ' { display: none; }',
     '.gh .gh-ask #gform_wrapper_' + ASK_FORM_ID + ', .gh .gh-ask #gform_confirmation_wrapper_' + ASK_FORM_ID + ' { display: block; }',
     '.gh-bar { display: none; }',
