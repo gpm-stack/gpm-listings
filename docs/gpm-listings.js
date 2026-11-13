@@ -205,7 +205,10 @@
       if (!e.target.closest || !e.target.closest('.gh-ask-btn')) return;
       e.preventDefault(); open(true);
     });
-    if (/confirmation/.test(wrap.id) || wrap.querySelector('.gform_confirmation_message, .validation_error, .gform_validation_errors, .gfield_error')) {
+    var sent = /confirmation/.test(wrap.id) || wrap.querySelector('.gform_confirmation_message');
+    if (sent || wrap.querySelector('.validation_error, .gform_validation_errors, .gfield_error')) {
+      var note = box.querySelector('p');
+      if (sent && note && note.parentNode === box) note.style.display = 'none';
       box.style.display = '';
       setTimeout(function () { box.scrollIntoView({ block: 'start' }); }, 60);
       return true;
