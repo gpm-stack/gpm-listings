@@ -52,12 +52,32 @@
     '.gh-body { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); gap: 36px; align-items: start; }',
     '.gh-main { display: grid; gap: 26px; min-width: 0; } .gh-main h2 { font-size: 24px; margin-bottom: 10px; }',
     '.gh-desc p + p { margin-top: 12px; } .gh-desc { line-height: 1.65; }',
-    '.gh-video { position: relative; aspect-ratio: 16 / 9; max-width: 100%; border-radius: 8px; overflow: hidden; background: #000; }',
-    '.gh-video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }',
     '.gh-side { border: 1px solid var(--line); border-radius: 10px; padding: 22px; display: grid; gap: 14px; background: #fff; position: sticky; top: 16px; }',
     '.gh-side dl { display: grid; grid-template-columns: auto 1fr; gap: 6px 14px; margin: 0; } .gh-side dt { color: var(--muted); } .gh-side dd { margin: 0; font-weight: 600; text-align: right; }',
     '.gh-side .gh-btn { width: 100%; } .gh-side .small { font-size: 14px; color: var(--muted); }',
     '.gh-list-ul { margin: 0; padding-left: 18px; display: grid; gap: 6px; }',
+    '.gh-gallery .gh-vslide { flex: 0 0 auto; position: relative; width: min(720px, 86%); aspect-ratio: 4 / 3; max-width: 100%; margin: 0; padding: 0; border: 0; border-radius: 8px; overflow: hidden; background: #000; scroll-snap-align: start; cursor: pointer; display: block; }',
+    '.gh-gallery .gh-vslide img { position: absolute; inset: 0; width: 100%; height: 100%; aspect-ratio: auto; object-fit: cover; border-radius: 0; opacity: 0.82; }',
+    '.gh-gallery .gh-vslide iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }',
+    '.gh-vslide:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }',
+    '.gh-play { position: absolute; left: 50%; top: 50%; width: 84px; height: 84px; margin: -42px 0 0 -42px; border-radius: 50%; background: var(--gold); box-shadow: 0 6px 24px rgba(0, 0, 0, 0.45); }',
+    '.gh-play::after { content: ""; position: absolute; left: 34px; top: 24px; border-style: solid; border-width: 18px 0 18px 28px; border-color: transparent transparent transparent var(--navy-deep); }',
+    '.gh-vslide:hover .gh-play { filter: brightness(1.08); }',
+    '.gh-vlabel { position: absolute; left: 0; right: 0; bottom: 0; padding: 34px 18px 16px; background: linear-gradient(transparent, rgba(0, 0, 0, 0.78)); color: #fff; font: 600 18px/1.3 Figtree, -apple-system, "Segoe UI", Roboto, sans-serif; text-align: left; }',
+    '.gh-cost { border-top: 1px solid var(--line); padding-top: 14px; display: grid; gap: 6px; }',
+    '.gh-cost-top { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; font-weight: 600; }',
+    '.gh-cost-top b { font-family: "Source Serif 4", Georgia, serif; font-size: 24px; color: var(--navy); white-space: nowrap; }',
+    '.gh-qual { border: 1px solid var(--line); border-radius: 10px; padding: 22px; background: var(--mist); display: grid; gap: 12px; }',
+    '.gh .gh-qual h2 { font-size: 24px; margin: 0; } .gh-qual > p { color: var(--muted); line-height: 1.6; }',
+    '.gh-qual-row { display: flex; flex-wrap: wrap; gap: 10px 12px; align-items: end; }',
+    '.gh-qual-row label { display: grid; gap: 4px; flex: 1 1 190px; min-width: 0; margin: 0; font-size: 13px; font-weight: 600; color: var(--muted); }',
+    '.gh-qual-row input, .gh-qual-row select { width: 100%; min-height: 44px; margin: 0; padding: 9px 10px; font: inherit; font-size: 16px; font-weight: 500; color: var(--ink); background-color: #fff; border: 1px solid #c9ced9; border-radius: 6px; box-shadow: none; }',
+    '.gh-qual-row input:focus-visible, .gh-qual-row select:focus-visible, .gh-qual-row .gh-btn:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }',
+    '.gh-qual-row .gh-btn { min-height: 44px; flex: 0 0 auto; }',
+    '.gh-qual-out:empty { display: none; } .gh-qual-out { border-radius: 8px; padding: 14px 16px; background: #fff; border: 1px solid var(--line); border-left: 4px solid var(--gold); display: grid; gap: 8px; line-height: 1.55; }',
+    '.gh-qual-out.yes { border-left-color: #2e7d4f; } .gh-qual-out b.lead { font-size: 17px; color: var(--navy); }',
+    '.gh-qual-out ul { margin: 0; padding-left: 18px; display: grid; gap: 4px; } .gh-qual-out a:not(.gh-btn) { color: var(--gold-deep); font-weight: 600; text-decoration: underline; }',
+    '.gh-qual-out .gh-btn { justify-self: start; } .gh-qual .fine { font-size: 13.5px; color: var(--muted); } .gh-qual .fine a { color: var(--gold-deep); font-weight: 600; text-decoration: underline; }',
     '.gh-loading { color: var(--muted); padding: 24px 0; }',
     '.gh-filters { display: flex; flex-wrap: wrap; gap: 10px 12px; align-items: end; margin-bottom: 18px; padding: 14px 16px; border: 1px solid var(--line); border-radius: 10px; background: var(--mist); }',
     '.gh-filters label { display: grid; gap: 4px; flex: 1 1 130px; min-width: 0; margin: 0; font-size: 13px; font-weight: 600; color: var(--muted); }',
@@ -89,6 +109,46 @@
   }
 
   var REQS = '<div class="gh-box gh-reqs"><h2>What you need to rent</h2><p>Household income of at least 3x the monthly rent for one occupant, or 4x for two or more occupants, plus a credit and background check. The $50 application fee is only charged when we&rsquo;re ready to run your background check. Housing Choice Vouchers are welcome. Pets are considered case by case, and our homes are smoke-free. <a href="/faq/">Read the renter FAQ</a>.</p></div>';
+
+  // "Do I qualify?" works out the published income guideline in the visitor's browser. Nothing typed here is saved or sent anywhere.
+  function qualBox(rent) {
+    return '<section class="gh-qual"' + (rent ? ' data-rent="' + rent + '"' : '') + '><h2>Do I qualify?</h2>' +
+      '<p>' + (rent ? 'A quick income check for this home.' : 'A quick income check to see which homes fit.') + ' Nothing you enter is saved or sent to us.</p>' +
+      '<div class="gh-qual-row"><label>Household income per month, before taxes<input type="text" inputmode="decimal" autocomplete="off" placeholder="$" class="gh-q-income"></label>' +
+      '<label>People who will live in the home<select class="gh-q-people"><option value="">Choose</option><option value="3">1 person</option><option value="4">2 or more people</option></select></label>' +
+      '<button type="button" class="gh-btn gh-btn-navy gh-q-go">Check</button></div>' +
+      '<div class="gh-qual-out" aria-live="polite"></div>' +
+      '<p class="fine">This checks our income guideline only. Every application also includes a credit and background check, so this is not an approval. Have a Housing Choice Voucher? Call <a href="' + TEL + '">' + PHONE + '</a> and we&rsquo;ll walk you through it.</p></section>';
+  }
+
+  // onFit(maxRent) is given on the list of homes, where the result can narrow the list.
+  function wireQual(root, data, h, onFit) {
+    var box = root.querySelector('.gh-qual');
+    if (!box) return;
+    var out = box.querySelector('.gh-qual-out'), inc = box.querySelector('.gh-q-income'), ppl = box.querySelector('.gh-q-people');
+    function show(cls, html) { out.className = 'gh-qual-out' + (cls ? ' ' + cls : ''); out.innerHTML = html; }
+    function check() {
+      var income = Math.floor(parseFloat(String(inc.value).replace(/[^\d.]/g, '')) || 0), mult = parseInt(ppl.value, 10) || 0;
+      if (!income || !mult) { show('', '<span>Enter your monthly income and choose how many people will live in the home.</span>'); return; }
+      var who = mult === 3 ? 'one person' : 'two or more people', max = Math.floor(income / mult);
+      var fits = data.homes.filter(function (x) { return rentNum(x) <= max && (!h || x.slug !== h.slug); }).sort(function (a, b) { return rentNum(b) - rentNum(a); });
+      var links = fits.length ? '<ul>' + fits.slice(0, 6).map(function (x) { return '<li><a href="' + homeUrl(x) + '">' + esc(x.street) + '</a> &middot; ' + esc(x.rent) + ' /month</li>'; }).join('') + '</ul>' : '';
+      if (!h) {
+        var all = fits.length;
+        if (!all) { show('', '<b class="lead">Your income fits homes up to ' + money(max) + ' a month.</b><span>None of the homes available right now are in that range. New homes are listed often, so check back, or call <a href="' + TEL + '">' + PHONE + '</a> and we&rsquo;ll tell you what&rsquo;s coming up.</span>'); return; }
+        show('yes', '<b class="lead">Your income fits homes up to ' + money(max) + ' a month.</b><span>' + all + ' of the ' + data.homes.length + ' homes available now ' + (all === 1 ? 'is' : 'are') + ' in that range for ' + who + '.</span><button type="button" class="gh-btn gh-btn-gold gh-q-fit">Show ' + (all === 1 ? 'that home' : 'those ' + all + ' homes') + '</button>');
+        out.querySelector('.gh-q-fit').onclick = function () { onFit(max); };
+        return;
+      }
+      var need = rentNum(h) * mult, short = need - income;
+      if (short <= 0) { show('yes', '<b class="lead">Yes, your income meets our guideline for this home.</b><span>For ' + who + ' we look for ' + money(need) + ' a month, and you entered ' + money(income) + '. The next step is to apply online.</span><a class="gh-btn gh-btn-gold" href="' + esc(h.apply_url) + '" target="_blank" rel="noopener">Apply now</a>'); return; }
+      if (short <= 200) { show('', '<b class="lead">You&rsquo;re close.</b><span>For ' + who + ' we look for ' + money(need) + ' a month, and you entered ' + money(income) + ', which is ' + money(short) + ' short. The guideline is not a hard cutoff, so we may still consider your application. Call <a href="' + TEL + '">' + PHONE + '</a> and we&rsquo;ll talk it through.</span>'); return; }
+      show('', '<b class="lead">This home is above our income guideline for you.</b><span>For ' + who + ' we look for ' + money(need) + ' a month, and you entered ' + money(income) + '. Your income fits homes up to ' + money(max) + ' a month.</span>' +
+        (fits.length ? '<span>Homes available now that fit:</span>' + links : '<span>None of the homes available right now are in that range. Call <a href="' + TEL + '">' + PHONE + '</a> and we&rsquo;ll tell you what&rsquo;s coming up.</span>'));
+    }
+    box.querySelector('.gh-q-go').addEventListener('click', check);
+    inc.addEventListener('keydown', function (e) { if (e.key === 'Enter') { e.preventDefault(); check(); } });
+  }
 
   function card(h, i) {
     var tags = '<span class="gh-tag">' + esc(availability(h)) + '</span>' + (h.youtube ? '<span class="gh-tag video">Video tour</span>' : '');
@@ -132,20 +192,21 @@
     if (!n) return intro + '<div class="gh-meta"><b>0 homes available now</b><span>Updated ' + esc(updated(data.updated_at)) + '</span></div>' +
       '<div class="gh-box"><h2>No homes are available right now</h2><p>New homes are listed as soon as they&rsquo;re ready. Call <a href="' + TEL + '">' + PHONE + '</a> and we&rsquo;ll tell you what&rsquo;s coming up.</p></div>' + REQS;
     return intro + filterBar(data.homes) +
-      '<div class="gh-meta"><b class="gh-count" aria-live="polite"></b><span>Updated ' + esc(updated(data.updated_at)) + '</span></div><div class="gh-results"></div>' + REQS;
+      '<div class="gh-meta"><b class="gh-count" aria-live="polite"></b><span>Updated ' + esc(updated(data.updated_at)) + '</span></div><div class="gh-results"></div>' + REQS + '<div style="margin-top:22px">' + qualBox(0) + '</div>';
   }
 
   function wireGrid(root, data) {
     var bar = root.querySelector('.gh-filters');
     if (!bar) return;
     var n = data.homes.length, clear = bar.querySelector('.gh-clear');
+    var cap = 0; // set by "Do I qualify?"; kept only while this page is open
     function apply() {
       var f = {};
       [].forEach.call(bar.querySelectorAll('select'), function (s) { f[s.getAttribute('data-f')] = s.value; });
       try { sessionStorage.setItem(FILTER_KEY, JSON.stringify(f)); } catch (e) {}
-      var active = f.beds || f.max || f.area;
+      var active = f.beds || f.max || f.area || cap;
       var list = data.homes.filter(function (h) {
-        return (!f.beds || beds(h) >= parseFloat(f.beds)) && (!f.max || rentNum(h) <= parseInt(f.max, 10)) && (!f.area || area(h) === f.area);
+        return (!cap || rentNum(h) <= cap) && (!f.beds || beds(h) >= parseFloat(f.beds)) && (!f.max || rentNum(h) <= parseInt(f.max, 10)) && (!f.area || area(h) === f.area);
       }).sort(function (a, b) { return f.sort === 'low' ? rentNum(a) - rentNum(b) : rentNum(b) - rentNum(a); });
       root.querySelector('.gh-count').textContent = active ? 'Showing ' + list.length + ' of ' + n + ' homes' : n + ' home' + (n === 1 ? '' : 's') + ' available now';
       root.querySelector('.gh-results').innerHTML = list.length ? '<div class="gh-grid">' + list.map(card).join('') + '</div>' :
@@ -156,8 +217,10 @@
     root.addEventListener('click', function (e) {
       if (!e.target.closest || !e.target.closest('.gh-clear')) return;
       [].forEach.call(bar.querySelectorAll('select'), function (s) { if (s.getAttribute('data-f') !== 'sort') s.value = ''; });
+      cap = 0;
       apply();
     });
+    wireQual(root, data, null, function (max) { cap = max; apply(); bar.scrollIntoView({ block: 'start' }); });
     apply();
   }
 
@@ -168,17 +231,21 @@
       if (p.indexOf(APPFOLIO_LOGO) !== -1) return '<div class="gh-logo-slide"><img src="' + SHARP_LOGO + '" alt="GPM Sales and Management, LLC" loading="lazy"></div>';
       return '<img src="' + esc(p) + '" alt="' + esc(h.address) + ' photo ' + (i + 1) + '" loading="' + (i < 2 ? 'eager' : 'lazy') + '">';
     }).join('');
-    var video = h.youtube ? '<section><h2>Video tour</h2><div class="gh-video"><iframe src="https://www.youtube-nocookie.com/embed/' + esc(h.youtube) + '" title="Video tour of ' + esc(h.address) + '" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe></div></section>' : '';
+    // The video tour is the first thing in the gallery; the player only loads when someone presses play.
+    var video = h.youtube ? '<button type="button" class="gh-vslide" data-yt="' + esc(h.youtube) + '" aria-label="Play the video tour of ' + esc(h.address) + '"><img src="https://i.ytimg.com/vi/' + esc(h.youtube) + '/maxresdefault.jpg" alt=""><span class="gh-play" aria-hidden="true"></span><span class="gh-vlabel">Watch the video tour</span></button>' : '';
+    var rentN = rentNum(h), depN = parseInt(String(h.deposit || '').replace(/[^\d]/g, ''), 10) || 0;
+    var cost = rentN && depN ? '<div class="gh-cost"><div class="gh-cost-top"><span>Estimated move-in cost</span><b>' + money(rentN + depN) + '</b></div>' +
+      '<p class="small">First month&rsquo;s rent (' + money(rentN) + ') plus the security deposit (' + money(depN) + '). You pay the deposit only after you&rsquo;re approved. The $50 application fee per adult is separate.</p></div>' : '';
     var desc = h.description.map(function (p) { return '<p>' + esc(p).replace(/\n/g, '<br>') + '</p>'; }).join('');
     return '<a class="gh-back" href="' + location.pathname + '">&larr; All homes for rent</a>' +
       '<div class="gh-head"><h1>' + esc(h.street) + '</h1><p class="sub">' + esc(h.address) + '</p>' +
       '<div class="gh-facts"><span class="gh-rent">' + esc(h.rent) + '<small> /month</small></span><span>' + esc(specs(h)) + '</span></div></div>' +
-      '<div class="gh-gallery">' + gallery + '</div><p class="gh-hint">' + h.photos.length + ' photos. Swipe or scroll to see them all.</p>' +
-      '<div class="gh-body"><div class="gh-main">' + video +
-      '<section class="gh-desc"><h2>About this home</h2>' + desc + '</section>' +
+      '<div class="gh-gallery">' + video + gallery + '</div><p class="gh-hint">' + (h.youtube ? 'Video tour and ' : '') + h.photos.length + ' photos. Swipe or scroll to see them all.</p>' +
+      '<div class="gh-body"><div class="gh-main">' +
+      '<section class="gh-desc"><h2>About this home</h2>' + desc + '</section>' + qualBox(rentN) +
       '<section><h2>What you need to rent</h2><ul class="gh-list-ul"><li>Household income of at least 3x the monthly rent for one occupant, or 4x for two or more occupants</li><li>Credit and background check</li><li>Smoke-free home; pets considered case by case</li><li>Housing Choice Vouchers welcome</li><li>Renters insurance highly recommended</li></ul></section>' +
       '<section class="gh-ask" id="gh-ask" style="display:none"><h2>Ask about this home</h2><p>Send us your question about ' + esc(h.address) + '. We reply within 48 hours. For a faster answer, call <a href="' + TEL + '">' + PHONE + '</a>.</p></section></div>' +
-      '<aside class="gh-side"><dl>' + rows + '</dl>' +
+      '<aside class="gh-side"><dl>' + rows + '</dl>' + cost +
       '<a class="gh-btn gh-btn-gold" href="' + esc(h.apply_url) + '" target="_blank" rel="noopener">Apply now</a>' +
       '<a class="gh-btn gh-btn-ghost gh-ask-btn" href="/contact-us/">Ask about this home</a>' +
       '<a class="gh-btn gh-btn-ghost" href="' + TEL + '">Call ' + PHONE + '</a>' +
@@ -216,6 +283,20 @@
     return false;
   }
 
+  function wireVideo(root) {
+    var b = root.querySelector('.gh-vslide');
+    if (!b) return;
+    var img = b.querySelector('img'), id = b.getAttribute('data-yt');
+    // YouTube answers with a tiny grey placeholder when a video has no large thumbnail; use the standard one then.
+    function sized() { if (img.naturalWidth && img.naturalWidth <= 120 && !/hqdefault/.test(img.src)) img.src = 'https://i.ytimg.com/vi/' + id + '/hqdefault.jpg'; }
+    img.addEventListener('load', sized); if (img.complete) sized();
+    b.addEventListener('click', function () {
+      var d = document.createElement('div'); d.className = 'gh-vslide';
+      d.innerHTML = '<iframe src="https://www.youtube-nocookie.com/embed/' + encodeURIComponent(id) + '?autoplay=1&rel=0" title="' + esc(b.getAttribute('aria-label').replace(/^Play the v/, 'V')) + '" allow="autoplay; accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe>';
+      b.parentNode.replaceChild(d, b);
+    });
+  }
+
   function gone() {
     return '<a class="gh-back" href="' + location.pathname + '">&larr; All homes for rent</a><div class="gh-box"><h2>This home is no longer available</h2><p>It may have been rented. See the homes available now, or call <a href="' + TEL + '">' + PHONE + '</a>.</p><p><a class="gh-btn gh-btn-navy" href="' + location.pathname + '">See available homes</a></p></div>';
   }
@@ -238,6 +319,7 @@
         var h = data.homes.filter(function (x) { return x.slug === want; })[0];
         root.innerHTML = h ? detail(h, data) : gone();
         if (h) document.title = h.street + ', ' + ((h.address || '').split(',').slice(-2, -1)[0] || 'Jackson').trim() + ' MS | ' + h.rent + '/mo Home for Rent | GPM';
+        if (h) { wireVideo(root); wireQual(root, data, h); }
         if (h && wireAsk(root, h)) return;
         window.scrollTo(0, 0);
       })
