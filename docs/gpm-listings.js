@@ -75,7 +75,7 @@
     '.gh-qual-row input:focus-visible, .gh-qual-row select:focus-visible, .gh-qual-row .gh-btn:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }',
     '.gh-qual-row .gh-btn { min-height: 44px; flex: 0 0 auto; }',
     '.gh-qual-out:empty { display: none; } .gh-qual-out { border-radius: 8px; padding: 14px 16px; background: #fff; border: 1px solid var(--line); border-left: 4px solid var(--gold); display: grid; gap: 8px; line-height: 1.55; }',
-    '.gh-qual-out.yes { border-left-color: #2e7d4f; } .gh-qual-out b.lead { font-size: 17px; color: var(--navy); }',
+    '.gh-qual-out.yes { border-left-color: #2e7d4f; } .gh-qual-out b.lead { font-size: 17px; font-weight: 700; color: var(--navy); }',
     '.gh-qual-out ul { margin: 0; padding-left: 18px; display: grid; gap: 4px; } .gh-qual-out a:not(.gh-btn) { color: var(--gold-deep); font-weight: 600; text-decoration: underline; }',
     '.gh-qual-out .gh-btn { justify-self: start; } .gh-qual .fine { font-size: 13.5px; color: var(--muted); } .gh-qual .fine a { color: var(--gold-deep); font-weight: 600; text-decoration: underline; }',
     '.gh-loading { color: var(--muted); padding: 24px 0; }',
