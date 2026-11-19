@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-18T02:53:41+00:00",
+ "updated_at": "2026-11-19T02:32:41+00:00",
  "homes": [
   {
    "uid": "a578fe5e-a374-4796-8a6f-a9a14164a63a",
@@ -172,7 +172,7 @@
    "title": "Move-In Ready Home at 3438 West Capitol St., Jackson, MS 39209 | Convenient Jackson Location Welcome Home",
    "address": "3438 West Capitol Street, Jackson, MS 39209",
    "street": "3438 West Capitol Street",
-   "rent": "$1,095",
+   "rent": "$995",
    "bed_bath": "4 bd / 1.5 ba",
    "sqft": "1,234",
    "available": "NOW",
@@ -215,7 +215,7 @@
    "title": "Move-In Ready 4BR/1.5BA Home in Jackson | Spacious Living & Convenient Location",
    "address": "149 Arbor Hill Drive, Jackson, MS 39204",
    "street": "149 Arbor Hill Drive",
-   "rent": "$1,095",
+   "rent": "$995",
    "bed_bath": "4 bd / 1.5 ba",
    "sqft": "",
    "available": "NOW",
