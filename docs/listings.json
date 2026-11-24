@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-22T19:33:55+00:00",
+ "updated_at": "2026-11-24T02:10:58+00:00",
  "homes": [
   {
    "uid": "a4854df5-b86b-46ab-a106-1cc053b0a14a",
@@ -81,6 +81,48 @@
    "application_fee": "$50",
    "apply_url": "https://goodpm.appfolio.com/listings/rental_applications/new?listable_uid=2ee8aa06-ac1c-40f9-b1e4-ec0beb66648c&source=Website",
    "appfolio_url": "https://goodpm.appfolio.com/listings/detail/2ee8aa06-ac1c-40f9-b1e4-ec0beb66648c"
+  },
+  {
+   "uid": "44a17e68-b534-410e-ac10-223b2621fc32",
+   "slug": "410-lawrence-road",
+   "title": "3 Bedroom 1.5 Bath",
+   "address": "410 Lawrence Road, Jackson, MS 39206",
+   "street": "410 Lawrence Road",
+   "rent": "$1,095",
+   "bed_bath": "3 bd / 1.5 ba",
+   "sqft": "1,379",
+   "available": "NOW",
+   "photos": [
+    "https://images.cdn.appfolio.com/goodpm/images/938216af-aad2-4396-b7b3-2bd8e7bc617e/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/b0ade939-befd-4f26-9797-ee9d90de80c1/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/decdd4de-6727-41e8-bbd8-2bf628d3b03e/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/af7f8019-2771-4c51-8b73-c16d6bd91fa7/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/8c86a536-f4be-4923-9bcd-b9a354e1cd63/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/132b9e17-4904-4291-9eb0-8b09a38c38e1/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/1d81dab3-2169-40b7-b017-83b29b024450/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/c03f90d7-76c5-4b68-8165-9dac334570cd/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/235f4ec0-cdcb-462d-a6e2-8224ac4d9fd4/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/bfe0215b-1f0f-4579-8210-5be574b0b138/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/26921a41-82a3-4202-a10e-01a3378e5589/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/c3153d0c-ab0a-4569-8261-1e88012f4080/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/87f83f6b-a11e-4d48-9e84-aad7c7a6b433/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/be359354-feed-4401-af21-375de1915d96/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/4907a61f-0187-4401-96e0-8085c4c6ca48/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/aa1d309c-8405-422d-9ac7-722cd43f0128/large.jpg"
+   ],
+   "youtube": null,
+   "description": [
+    "This well-maintained 3-bedroom, 1.5-bath home offers comfortable",
+    "Conveniently located in the Broadmoor area, you'll enjoy easy access to shopping, restaurants, schools, parks, and major highways, making commuting throughout the North Jackson area",
+    "Home Features\n3 spacious bedrooms\n1.5 full bathrooms\nCentral heating and air conditioning\nCeiling fans",
+    "Tenant is responsible for electricity, gas, water, and lawn care.",
+    "Appliance Policy: Appliances may or may not be provided. Any appliances left in the home are offered as a convenience only. Tenants are responsible for providing and/or replacing appliances if they become non-functional during the lease term.",
+    "Rental Requirements\n$50 Application Fee. No application fee required until we run your background.\nMonthly household income must be at least 3\u00d7 the monthly rent for one occupant or 4\u00d7 the monthly rent for two working adults.\nCredit and background check required.\n$700 security deposit.\nRenters insurance is highly recommended.\nSmoke-free home.\nPets are generally not permitted but may be considered on a case-by-case basis depending on the type, size, and breed of the animal."
+   ],
+   "deposit": "$700",
+   "application_fee": "$50",
+   "apply_url": "https://goodpm.appfolio.com/listings/rental_applications/new?listable_uid=44a17e68-b534-410e-ac10-223b2621fc32&source=Website",
+   "appfolio_url": "https://goodpm.appfolio.com/listings/detail/44a17e68-b534-410e-ac10-223b2621fc32"
   },
   {
    "uid": "3a893f35-b941-4b2a-9275-d4e4823e8404",
@@ -174,7 +216,7 @@
    "title": "3Bed 1Bath Home",
    "address": "2700 McDowell Road Extension, Apt. A, Jackson, MS 39204",
    "street": "2700 McDowell Road Extension",
-   "rent": "$995",
+   "rent": "$895",
    "bed_bath": "3 bd / 1 ba",
    "sqft": "1,025",
    "available": "NOW",
@@ -207,7 +249,7 @@
    "title": "2Bed 1Bath Home",
    "address": "1019 Combs Street, Jackson, MS 39204",
    "street": "1019 Combs Street",
-   "rent": "$895",
+   "rent": "$795",
    "bed_bath": "2 bd / 1 ba",
    "sqft": "1,064",
    "available": "NOW",
