@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-24T18:07:04+00:00",
+ "updated_at": "2026-11-26T02:07:55+00:00",
  "homes": [
   {
    "uid": "460dd15b-1a69-4866-85ae-a87d63fa0f73",
@@ -160,6 +160,41 @@
    "application_fee": "$50",
    "apply_url": "https://goodpm.appfolio.com/listings/rental_applications/new?listable_uid=44a17e68-b534-410e-ac10-223b2621fc32&source=Website",
    "appfolio_url": "https://goodpm.appfolio.com/listings/detail/44a17e68-b534-410e-ac10-223b2621fc32"
+  },
+  {
+   "uid": "01b5e933-1909-4de8-b443-2916e66b7491",
+   "slug": "523-avalon-road",
+   "title": "3 Bedroom 2 Bath",
+   "address": "523 Avalon Road, Jackson, MS 39206",
+   "street": "523 Avalon Road",
+   "rent": "$1,095",
+   "bed_bath": "3 bd / 2 ba",
+   "sqft": "1,465",
+   "available": "NOW",
+   "photos": [
+    "https://images.cdn.appfolio.com/goodpm/images/3493cd47-6c68-4bcb-b2d5-7a2451ec66db/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/4e223e84-d90f-429f-a4b8-e45b4bae7668/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/58f2167c-7178-4364-9581-5a6883437bbc/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/1cd754c9-5d5e-4373-8f67-e0c6701208cf/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/742a6cd3-b756-476e-b54f-0ed768d683ea/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/6acab41c-a194-4f07-8236-b765c6a3d5be/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/631dbdaf-45ca-45f1-8b17-f4fc6a23db3f/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/5ca4512e-6611-4db1-8dfe-66fd0d8d312c/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/c5d15828-3803-4e98-bd50-f7c9db335096/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/4e89bf9b-d2ad-4da1-a2c1-b0c0c774631f/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/b4dbee73-f33d-4a6c-80d2-3530b0b275b7/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/2f17a1a7-2884-4dd5-b9b9-672e68f98789/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/1ab1703d-6094-4902-8556-b6594c1e8913/large.jpg",
+    "https://images.cdn.appfolio.com/goodpm/images/aa1d309c-8405-422d-9ac7-722cd43f0128/large.jpg"
+   ],
+   "youtube": "AUlvSkiMnH0",
+   "description": [
+    "Welcome to 523 Avalon! This 3 bedroom, 2 bathroom home offers beautiful hardwood floors, a spacious living room, and an updated kitchen with a gas stove and refrigerator included. Washer and dryer hookups on site. Ceiling fans throughout and plenty of natural light. Rent is $1,095 per month with a $700 security deposit. Apply today!"
+   ],
+   "deposit": "$700",
+   "application_fee": "$50",
+   "apply_url": "https://goodpm.appfolio.com/listings/rental_applications/new?listable_uid=01b5e933-1909-4de8-b443-2916e66b7491&source=Website",
+   "appfolio_url": "https://goodpm.appfolio.com/listings/detail/01b5e933-1909-4de8-b443-2916e66b7491"
   },
   {
    "uid": "3a893f35-b941-4b2a-9275-d4e4823e8404",
