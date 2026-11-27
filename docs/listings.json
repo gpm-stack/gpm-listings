@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-26T03:32:36+00:00",
+ "updated_at": "2026-11-27T21:13:25+00:00",
  "homes": [
   {
    "uid": "460dd15b-1a69-4866-85ae-a87d63fa0f73",
@@ -8,7 +8,7 @@
    "address": "5457 Mimosa Drive, Jackson, MS 39206",
    "street": "5457 Mimosa Drive",
    "rent": "$1,295",
-   "bed_bath": "",
+   "bed_bath": "3 bd / 2 ba",
    "sqft": "",
    "available": "NOW",
    "photos": [
